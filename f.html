@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<title>Manorama Security Department</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Manorama Industries Limited">
+<meta property="og:description" content="Security Department · Birkoni Plant">
+<meta property="og:image" content="https://amskaran-web.github.io/badge/badge.jpg">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<style>html,body{margin:0;height:100%;background:#1b2351;color:#fff;font-family:-apple-system,Segoe UI,Roboto,sans-serif}
+body{display:grid;place-items:center;text-align:center}img{max-width:70vw;max-height:55vh}a{color:#e6c46a;font-size:18px}</style>
+</head><body><div><img src="badge.jpg" alt="Manorama Industries Limited · Security Department · Birkoni Plant"><p id="m">Opening the form…</p>
+<p><a id="l" href="#">Tap here if it does not open</a></p></div>
+<script>
+/* Opens the Security Command Centre form. The address below is fixed on purpose (nothing in the link can send
+   anyone to another site); only the part after "?" (form name, task id, person, language) is passed on. */
+var EXEC = 'https://script.google.com/macros/s/AKfycbzms1Uxg7wDHpUpuD6_NNokIt-hQ9RFrczn4h2zBOW_ZtGOoySKkI8VjNEPzAWNTfuPbA/exec';
+var to = EXEC + (location.search || '');
+document.getElementById('l').href = to;
+if (location.search) location.replace(to); else document.getElementById('m').textContent = 'Manorama Security Command Centre';
+</script></body></html>
